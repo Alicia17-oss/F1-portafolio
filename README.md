@@ -16,5 +16,5 @@ Características:
 - Estructura semántica completa (header, nav, main, section, article, footer).
 - Sin frameworks, plantillas o JavaScript.
 
-
+sitio web publicado: https://alicia17-oss.github.io/F1-portafolio/ 
 © 2025 Cristal Alicia Osorio Patricio. Todos los derechos reservados.
