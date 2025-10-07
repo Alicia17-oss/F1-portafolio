@@ -2,202 +2,138 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fórmula 1 — Portafolio & Blog de Cristal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Sitio formal en modo oscuro sobre Fórmula 1. Historia, escuderías, pilotos, favoritos y calendario 2025. HTML5 + CSS puro.">
 </head>
+
 <body>
-  <header id="top">
+  <header id="inicio">
     <div class="container header-inner">
-      <a href="https://www.formula1.com" target="_blank" class="brand" aria-label="Sitio oficial de Fórmula 1">
-        <img src="imagenes/logo_f1.svg" alt="Marca F1 estilizada" class="logo">
-      </a>
+      <img src="imagenes/cabecera_formula1-960x640.jpg" alt="Logo oficial de la Fórmula 1" class="logo">
       <div class="title-wrap">
-        <h1>Fórmula 1 — Portafolio &amp; Blog</h1>
+        <h1>Fórmula 1 — Portafolio &amp; Blog de Cristal</h1>
         <p class="sub">Proyecto académico en HTML5 + CSS puro</p>
       </div>
     </div>
-    <figure class="hero">
-      <img src="imagenes/hero.svg" alt="Portada sobria con acentos rojos estilo Fórmula 1" width="1400" height="520">
-      <figcaption>Modo oscuro elegante con acentos rojo F1.</figcaption>
-    </figure>
   </header>
 
-  <nav class="site" aria-label="Navegación principal">
+  <nav class="site">
     <div class="container">
       <ul>
-        <li><a href="#historia" aria-current="page">Historia</a></li>
+        <li><a href="#historia">Historia</a></li>
         <li><a href="#escuderias">Escuderías</a></li>
         <li><a href="#pilotos">Pilotos</a></li>
-        <li><a href="#favoritos">Mis pilotos favoritos</a></li>
-        <li><a href="#calendario">Calendario 2025</a></li>
-        <li><a href="#recursos">Recursos &amp; Contacto</a></li>
+        <li><a href="#favoritos">Favoritos</a></li>
+        <li><a href="#calendario">Calendario</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div>
   </nav>
 
   <main>
-    <section id="historia" aria-labelledby="historia-title">
+    <section id="historia" class="fade-in">
       <div class="container">
-        <h2 id="historia-title">Historia y esencia de la F1</h2>
-        <article class="card">
-          <h3>De los garajes a la alta tecnología</h3>
-          <p class="dropcap">La <strong>Fórmula 1</strong> es un laboratorio rodante. La evolución de <em>aerodinámica</em>, <em>materiales</em> y <mark>seguridad</mark> ha sido constante.</p>
-          <figure>
-            <img src="imagenes/circuito.svg" alt="Trazo estilizado de un circuito">
-            <figcaption>Los circuitos combinan curvas de alta/baja velocidad, zonas DRS y rectas de máxima.</figcaption>
-          </figure>
-          <blockquote>La F1 une perfección humana y precisión mecánica a más de 300 km/h.</blockquote>
-          <ol>
-            <li>Clasificación: vuelta perfecta.</li>
-            <li>Carrera: estrategia, energía y neumáticos.</li>
-            <li>Boxes: sincronía total.</li>
-          </ol>
-        </article>
+        <h2>Historia y esencia de la F1</h2>
+        <p>La <strong>Fórmula 1</strong> es la categoría reina del automovilismo mundial. Combina <em>tecnología</em>, <mark>precisión</mark> y <em>estrategia</em> para alcanzar velocidades superiores a 300 km/h.</p>
+        <figure>
+          <img src="imagenes/F1.jpg" alt="Vista aérea de un circuito de Fórmula 1">
+          <figcaption>Los circuitos desafían tanto al piloto como a la máquina.</figcaption>
+        </figure>
+        <blockquote>“La F1 no es solo velocidad, es una danza entre el hombre y la máquina.”</blockquote>
       </div>
     </section>
 
-    <section id="escuderias" aria-labelledby="escuderias-title">
+    <section id="escuderias" class="fade-in">
       <div class="container">
-        <h2 id="escuderias-title">Escuderías y tecnología</h2>
-        <article class="card">
-          <h3>Constructores clave</h3>
-          <ul>
-            <li>Ferrari</li>
-            <li>Mercedes-AMG</li>
-            <li>Red Bull Racing</li>
-            <li>McLaren</li>
-            <li>Alpine · Aston Martin · Williams</li>
-          </ul>
-          <p>La eficiencia surge de la <em>sinergia</em> entre chasis, unidad de potencia híbrida y software de control.</p>
-        </article>
+        <h2>Escuderías y tecnología</h2>
+        <ul>
+          <li>Ferrari</li>
+          <li>Red Bull Racing</li>
+          <li>Mercedes-AMG</li>
+          <li>McLaren</li>
+          <li>Alpine</li>
+        </ul>
+        <p>Las escuderías representan la unión de <em>innovación</em> y <em>rendimiento</em>. Cada componente se optimiza para lograr la máxima eficiencia en pista.</p>
       </div>
     </section>
 
-    <section id="pilotos" aria-labelledby="pilotos-title">
+    <section id="pilotos" class="fade-in">
       <div class="container">
-        <h2 id="pilotos-title">Pilotos y preparación</h2>
-        <article class="card">
-          <h3>Talento y constancia</h3>
-          <p>Gestión de neumáticos, ahorro energético y foco mental distinguen a los mejores.</p>
-          <p><q>Empuja en salida, cuida en tráfico, vuela con aire limpio.</q></p>
-        </article>
+        <h2>Pilotos y preparación</h2>
+        <p>Los pilotos de F1 entrenan física y mentalmente para soportar la presión de la competencia. Cada carrera exige una concentración extrema.</p>
       </div>
     </section>
 
-    <section id="favoritos" aria-labelledby="favoritos-title" class="pilotos">
+    <section id="favoritos" class="fade-in">
       <div class="container">
-        <h2 id="favoritos-title">Mis pilotos favoritos</h2>
-        <div class="grid">
-          <article class="card destacado">
-            <figure>
-              <img src="imagenes/sainz.svg" alt="Carlos Sainz Jr.">
-              <figcaption>Carlos Sainz Jr. — Ferrari</figcaption>
-            </figure>
-            <h3><span class="flag">🇪🇸</span>Carlos Sainz Jr.</h3>
-            <p class="meta">Equipo: Ferrari · Estilo: consistencia y lectura de carrera</p>
-            <p>Mi piloto principal por su mentalidad estratégica y capacidad para capitalizar oportunidades.</p>
+        <h2>Mis pilotos favoritos</h2>
+        <div class="pilotos-grid">
+          <article>
+            <img src="imagenes/images.jfif" alt="Carlos Sainz Jr">
+            <h3>Carlos Sainz Jr. 🇪🇸</h3>
+            <p>Equipo: Ferrari</p>
           </article>
-
-          <article class="card">
-            <figure><img src="imagenes/verstappen.svg" alt="Max Verstappen"></figure>
-            <h3><span class="flag">🇳🇱</span>Max Verstappen</h3>
-            <p class="meta">Red Bull Racing · Estilo: agresivo y eficiente</p>
-            <p>Ritmo puro y control en aire limpio. Dominio bajo presión.</p>
+          <article>
+            <img src="imagenes/max-verstappen-header.jfif" alt="Max Verstappen">
+            <h3>Max Verstappen 🇳🇱</h3>
+            <p>Equipo: Red Bull Racing</p>
           </article>
-
-          <article class="card">
-            <figure><img src="imagenes/russell.svg" alt="George Russell"></figure>
-            <h3><span class="flag">🇬🇧</span>George Russell</h3>
-            <p class="meta">Mercedes-AMG · Estilo: precisión y temple</p>
-            <p>Consistencia y liderazgo técnico. Gran trabajo en clasificación.</p>
+          <article>
+            <img src="imagenes/descarga (2).jfif" alt="George Russell">
+            <h3>George Russell 🇬🇧</h3>
+            <p>Equipo: Mercedes-AMG</p>
           </article>
-
-          <article class="card">
-            <figure><img src="imagenes/norris.svg" alt="Lando Norris"></figure>
-            <h3><span class="flag">🇬🇧</span>Lando Norris</h3>
-            <p class="meta">McLaren · Estilo: velocidad y control</p>
-            <p>Rápido en condiciones cambiantes; gran gestión de neumáticos.</p>
+          <article>
+            <img src="imagenes/2025_lando_team_pic_02.webp" alt="Lando Norris">
+            <h3>Lando Norris 🇬🇧</h3>
+            <p>Equipo: McLaren</p>
           </article>
-
-          <article class="card">
-            <figure><img src="imagenes/perez.svg" alt="Sergio Checo Pérez"></figure>
-            <h3><span class="flag">🇲🇽</span>Sergio “Checo” Pérez</h3>
-            <p class="meta">Red Bull Racing · Estilo: cuidado de neumáticos y defensa</p>
-            <p>Maestro en conservar neumáticos y defender posición en momentos críticos.</p>
+          <article>
+            <img src="imagenes/descarga (1).jfif" alt="Sergio Pérez">
+            <h3>Sergio “Checo” Pérez 🇲🇽</h3>
+            <p>Equipo: Red Bull Racing</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="calendario" aria-labelledby="calendario-title">
+    <section id="calendario" class="fade-in">
       <div class="container">
-        <h2 id="calendario-title">Calendario 2025</h2>
-        <article class="card">
-          <h3>Grandes Premios y fechas</h3>
-          <div class="table-wrap">
-            <table aria-describedby="nota-cal">
-              <thead>
-                <tr><th>#</th><th>País / GP</th><th>Circuito</th><th>Fechas</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1</td><td>Australia</td><td>Melbourne</td><td>14–16 Mar</td></tr>
-                <tr><td>2</td><td>China</td><td>Shanghai</td><td>21–23 Mar</td></tr>
-                <tr><td>3</td><td>Japón</td><td>Suzuka</td><td>04–06 Abr</td></tr>
-                <tr><td>4</td><td>Bahréin</td><td>Sakhir</td><td>11–13 Abr</td></tr>
-                <tr><td>5</td><td>Arabia Saudita</td><td>Jeddah</td><td>18–20 Abr</td></tr>
-                <tr><td>6</td><td>EE. UU.</td><td>Miami</td><td>02–04 May</td></tr>
-                <tr><td>7</td><td>Italia</td><td>Imola</td><td>16–18 May</td></tr>
-                <tr><td>8</td><td>Mónaco</td><td>Monte Carlo</td><td>23–25 May</td></tr>
-                <tr><td>9</td><td>España</td><td>Barcelona</td><td>30 May–01 Jun</td></tr>
-                <tr><td>10</td><td>México</td><td>Autódromo H. Rodríguez</td><td>24–26 Oct</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p id="nota-cal" class="muted">Fuente: Formula1.com · Fechas sujetas a confirmación oficial FIA.</p>
-        </article>
+        <h2>Calendario 2025</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Gran Premio</th>
+              <th>Ubicación</th>
+              <th>Fecha</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Australia</td><td>Melbourne</td><td>14–16 Mar</td></tr>
+            <tr><td>2</td><td>China</td><td>Shanghai</td><td>21–23 Mar</td></tr>
+            <tr><td>3</td><td>México</td><td>CDMX</td><td>24–26 Oct</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
-    <aside class="complementos" aria-label="Información complementaria">
+    <section id="contacto" class="fade-in">
       <div class="container">
-        <div class="grid">
-          <section class="card" aria-labelledby="sobre-mi">
-            <h3 id="sobre-mi">Sobre mí</h3>
-            <p>Soy <strong>Cristal Alicia Osorio Patricio</strong>. Este sitio combina enfoque informativo con mi perspectiva personal de fan de la F1.</p>
-          </section>
-          <section class="card" aria-labelledby="enlaces-rel">
-            <h3 id="enlaces-rel">Enlaces</h3>
-            <ul>
-              <li><a target="_blank" rel="noopener" href="https://www.formula1.com/en/racing/2025">Calendario oficial 2025</a></li>
-              <li><a target="_blank" rel="noopener" href="https://www.fia.com">FIA</a></li>
-              <li><a target="_blank" rel="noopener" href="https://es.wikipedia.org/wiki/F%C3%B3rmula_1">Wikipedia: Fórmula 1</a></li>
-            </ul>
-          </section>
-        </div>
-      </div>
-    </aside>
-
-    <section id="recursos" aria-labelledby="recursos-title">
-      <div class="container">
-        <h2 id="recursos-title">Recursos &amp; Contacto</h2>
-        <article class="card">
-          <h3>Contacto</h3>
-          <p>Escríbeme a: <strong>cristal@example.com</strong></p>
-          <p class="muted">Proyecto académico sin fines de lucro. HTML5 + CSS puro.</p>
-        </article>
+        <h2>Contacto</h2>
+        <p>Autora: <strong>Cristal Alicia Osorio Patricio</strong></p>
+        <p>Instituto Tecnológico de Cancún</p>
+        <p>Año: 2025</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Cristal Alicia Osorio Patricio. Todos los derechos reservados.</p>
-    <p>Sitio educativo — Fórmula 1 · HTML5 + CSS (sin frameworks)</p>
-    <p><a href="#top">Volver arriba ↑</a></p>
+    <p>© 2025 Cristal Alicia Osorio Patricio — Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
